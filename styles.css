@@ -11,14 +11,15 @@ a {
 
 .header {
     display: flex;
-    flex-wrap: wrap;
     background-color: green;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-around;
     padding: 8px;
 
 }
 
 .header img {
-    max-width: 250px;
+    max-width: 30%;
+    height: auto;
 }
+
