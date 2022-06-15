@@ -19,7 +19,7 @@ a {
     display: flex;
     background-color: green;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 16px;
 
 }
@@ -35,3 +35,19 @@ a {
     font-size: 20px;
 }
 
+.top {
+    display: flex;
+    background-color: green;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.top.left {
+    justify-content: center;
+    flex: 50%;
+}
+
+.top img {
+    max-width: 40%;
+    margin: 50px;
+}
