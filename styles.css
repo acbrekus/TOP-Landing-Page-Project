@@ -40,11 +40,16 @@ a {
     background-color: green;
     align-items: flex-start;
     justify-content: space-around;
+    font-size: 30px;
 }
 
-.top.left {
+.top .left {
+    display: flex;
+    flex-flow: column wrap;
     justify-content: center;
-    flex: 50%;
+    align-items: center;
+    padding: -10px;
+    flex: 0 0 20%;
 }
 
 .top img {
