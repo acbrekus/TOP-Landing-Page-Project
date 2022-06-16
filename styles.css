@@ -86,3 +86,16 @@ a {
     border-radius: 25px;
     max-width: 400px;
 }
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-emphasis: italic;
+    text-align: center;
+    background-color: blue;
+    padding: 30px 100px;
+    font-size: 40px;
+    margin: 0;
+
+}
