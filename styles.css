@@ -12,12 +12,13 @@ ul {
 }
 
 a {
-    text-decoration: none;
+    color: yellow;
+    
 }
 
 .header {
     display: flex;
-    background-color: green;
+    background-color: #12700F;
     align-items: center;
     justify-content: space-around;
     padding: 16px;
@@ -35,17 +36,11 @@ a {
     font-size: 20px;
 }
 
-.iheader {
-    margin: 0;
-    text-align: center;
-    background-color: red;
-    padding: 30px;
-    font-size: 40px;
-}
+
 
 .top {
     display: flex;
-    background-color: green;
+    background-color: #12700F;
     align-items: flex-start;
     justify-content: space-around;
     font-size: 30px;
@@ -65,20 +60,30 @@ a {
     margin: 50px;
 }
 
+.iheader {
+    margin: 0;
+    text-align: center;
+    background-color: white;
+    padding-top: 100px;
+    font-size: 40px;
+    color: black;
+}
+
 .info {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: center;
     align-items: center;
-    background-color: red;
+    background-color: white;
+    padding-bottom: 100px;
 }
 
 .info div {
     flex: 0 1 400px;
     text-align: center;
     padding: 10px;
-    
+    color: black;
 }
 
 .info img {
@@ -90,30 +95,40 @@ a {
 
 .quote {
     display: flex;
-    flex-flow: column wrap;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: blue;
+    background-color: #d9dbdb;
+    padding: 100px;
 }
 
 .text {
     text-align: center;
-    padding: 30px 100px;
+    padding: 30px 30% 0;
     font-size: 40px;
     margin: 0;
+    font-size: 36px;
+    font-weight: 100px;
+    font-style: italic;
+    color: black;
 }
 
 .author {
+    align-self: flex-end;
+    color: black;
+    font-style: bold;
     margin: 0;
-    padding: 0;
-    font-size: 38px;
+    padding: 0 30% 30px;
+    font-size: 34px;
+    font-weight: 500;
+    color: black;
 }
 
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: red;
+    background-color: white;
     padding: 50px;
 }
 
@@ -140,6 +155,6 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: green;
+    background-color: #12700f;
     padding: 20px;
 }
