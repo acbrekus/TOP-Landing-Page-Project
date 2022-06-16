@@ -48,7 +48,7 @@ button {
 .top {
     display: flex;
     background-color: #12700F;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-between;
     font-size: 30px;
     padding: 0 15% 100px;
@@ -167,8 +167,8 @@ button {
     align-items: center;
     background-color: orange;
     border-radius: 25px;
-    padding: 30px;
     width: 50%;
+    max-height: 30%;
     font-size: 30px;
 }
 
