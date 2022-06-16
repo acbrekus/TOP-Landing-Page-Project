@@ -35,6 +35,14 @@ a {
     font-size: 20px;
 }
 
+.iheader {
+    margin: 0;
+    text-align: center;
+    background-color: red;
+    padding: 30px;
+    font-size: 40px;
+}
+
 .top {
     display: flex;
     background-color: green;
@@ -62,16 +70,19 @@ a {
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: center;
+    align-items: center;
     background-color: red;
 }
 
 .info div {
-    flex: 0 1 20%;
+    flex: 0 1 400px;
     text-align: center;
     padding: 10px;
+    
 }
 
 .info img {
     border: 5px solid blue;
     border-radius: 25px;
+    max-width: 400px;
 }
