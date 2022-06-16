@@ -56,3 +56,15 @@ a {
     max-width: 40%;
     margin: 50px;
 }
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.info div {
+    flex: 0 1 500px;
+    text-align: center;
+    padding: 10px;
+}
