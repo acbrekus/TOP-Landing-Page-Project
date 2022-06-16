@@ -85,17 +85,61 @@ a {
     border: 5px solid blue;
     border-radius: 25px;
     max-width: 400px;
+    height: auto;
 }
 
 .quote {
     display: flex;
+    flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-    text-emphasis: italic;
-    text-align: center;
     background-color: blue;
+}
+
+.text {
+    text-align: center;
     padding: 30px 100px;
     font-size: 40px;
     margin: 0;
+}
 
+.author {
+    margin: 0;
+    padding: 0;
+    font-size: 38px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    padding: 50px;
+}
+
+.container button {
+    max-height: 30px;
+}
+
+.container .outside {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: orange;
+    border-radius: 25px;
+    padding: 30px;
+    width: 50%
+}
+
+.container .inside {
+    max-width: 200px;
+    padding: 100px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    padding: 20px;
 }
